@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+@media (max-width: 768px) {
+  .circulo {
+    width: 90vw;
+    padding: 5vw;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+body {
+  background-image: url(img/fundoRamosH.png);
+  background-size: 100%;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;     
+  flex-direction: column;
+}
+
+.separacaoHeader {
+  border: 0px;
+  padding: 5px;
+}
+.separacaoHeaderInfo {
+  border: 0px;
+  padding: 10px;
+}
+
+header {
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  background-color: #a86940;
+  color: #F7E7CE;
+  height: 35vw;
+  aspect-ratio: 1/1;
+  padding: 2vw;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+header h1{
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+#gg {
+  scale: 80%;
+  border-radius: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.fraseConvite {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: -0.95vw;
+}
+
+#descricao {
+  text-align: center;
+  font-size: small;
+}
+
+#conviteLink {
+  color: #585745;
+  text-decoration: none;
+}
+.botaoLista {
+  border-radius: 8px;
+  padding: 10px 20px;        /* Espaço interno */
+  background-color: #585745;
+  color: #ffffff;
+  font-family: "Libre Caslon Display", serif;
+  font-size: xx-large;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  text-align: center;
+  width: auto;
+}
+.botaoLista:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+  text-shadow: 1px 1px 2px #000000;
+}
