@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
 
-@media-screen(max-width: 768px) {
+@media (max-width: 768px) {
   .circulo {
     width: 90vw;
     padding: 5vw;
