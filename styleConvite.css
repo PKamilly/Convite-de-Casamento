@@ -12,6 +12,9 @@
   body {
     font-size: 16px;
   }
+  .botaoLista{
+    width: 35px;
+  }
 }
 
 body {
@@ -96,6 +99,7 @@ header h1{
   transition: transform 0.2s ease, color 0.2s ease;
   text-align: center;
   width: auto;
+  height: auto;
 }
 .botaoLista:hover {
   color: #ffffff;
