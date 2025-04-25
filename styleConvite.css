@@ -9,6 +9,9 @@
   h1 {
     font-size: 2rem;
   }
+  body {
+    font-size: 16px;
+  }
 }
 
 body {
@@ -21,11 +24,12 @@ body {
   justify-content: center;
   align-items: center;     
   flex-direction: column;
+  font-size: 18px;
 }
 
 .separacaoHeader {
   border: 0px;
-  padding: 5px;
+  padding: 5vh;
 }
 .separacaoHeaderInfo {
   border: 0px;
