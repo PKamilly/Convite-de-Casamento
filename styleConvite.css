@@ -2,7 +2,7 @@
 
 @media (max-width: 768px) {
   .circulo {
-    width: 90vw;
+    width: auto;
     padding: 5vw;
   }
 
