@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Libre+Caslon+Display&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
 
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
 body {
   font-family: Arial, sans-serif;
   background-image: url(../img/fundoRamosV.png);
